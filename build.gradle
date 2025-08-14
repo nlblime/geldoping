@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'de.nlblime'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.xerial:sqlite-jdbc:3.40.1.0'
+    implementation 'com.sun.mail:javax.mail:1.6.2'
+    implementation 'jakarta.activation:jakarta.activation-api:1.2.2'
+}
+
+application {
+    // Passe den Main-Class-Namen an, falls anders
+    mainClass = 'Main'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17) // oder 11
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
