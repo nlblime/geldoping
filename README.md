@@ -24,22 +24,28 @@ Benutzererlebnis spielerischer gestalten.
 ---
 
 ## 🛠 Installation
+### Option A
+> Mit der fertigen Geldoping.jar die Anwendung direkt starten, ohne Gradle zu verwenden
+```bash
+java -jar Geldoping.jar
+```
 
+### Option B
 > **Empfohlen:** Java 17 oder neuer  
 > Das Projekt verwendet **Gradle** für den Build- und Ausführungsprozess.
 
-### 1️⃣ Repository klonen
+#### 1️⃣ Repository klonen
 ```bash
 git clone https://github.com/nlblime/geldoping.git
 cd geldoping
 ```
 
-### 2️⃣ Projekt bauen
+#### 2️⃣ Projekt bauen
 ```bash
 gradle build
 ```
 
-### 3️⃣ Anwendung starten
+#### 3️⃣ Anwendung starten
 ```bash
 gradle run
 ```
