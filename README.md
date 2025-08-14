@@ -32,3 +32,14 @@ Benutzererlebnis spielerischer gestalten.
 ```bash
 git clone https://github.com/nlblime/geldoping.git
 cd geldoping
+```
+
+### 2️⃣ Projekt bauen
+```bash
+gradle build
+```
+
+### 3️⃣ Anwendung starten
+```bash
+gradle run
+```
