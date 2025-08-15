@@ -8,7 +8,7 @@ public class EmailService {
 
     private static final String ABSENDER_EMAIL = "geldoping@gmail.com";
     private static final String ABSENDER_PASSWORT = "ngnc sygb jfeg zjik";
-    private static final String EMPFAENGER_EMAIL = "emilsoriginal@gmail.com";
+    private static final String EMPFAENGER_EMAIL = "deineemail@gmail.com"; //Email ändern
 
     public static void sendMail(String betreff, String inhalt) {
         Properties props = new Properties();
@@ -42,3 +42,4 @@ public class EmailService {
         }
     }
 }
+
